@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="126dp"
+            android:layout_marginTop="624dp"
+            android:layout_marginEnd="146dp"
+            android:layout_marginBottom="59dp"
+            android:text="Show" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="134dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="147dp"
+            android:layout_marginBottom="637dp"
+            android:text="next" />
+
+        <DatePicker
+            android:id="@+id/date1"
+            android:layout_width="337dp"
+            android:layout_height="383dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="114dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginBottom="235dp">
+
+        </DatePicker>
+
+        <EditText
+            android:id="@+id/show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="562dp"
+            android:layout_marginEnd="116dp"
+            android:layout_marginBottom="124dp"
+            android:ems="10"
+            android:inputType="text" />
+
+    </RelativeLayout>
+
+</LinearLayout>
